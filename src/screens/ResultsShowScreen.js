@@ -18,13 +18,14 @@ const ResultsShowScreen = ({ navigation }) => {
     if (!result) {
         return null
     }
+    console.log(result)
 
     return (
         <View>
             <FlatList
                 data={result.photos}
                 keyExtractor={(photo) => photo}
-                renderItem={(item) => {
+                renderItem={({ item }) => {
                     return <Image style={styles.image} source={{ uri: item }} />
                 }}
             />
