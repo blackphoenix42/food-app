@@ -18,7 +18,6 @@ const ResultsShowScreen = ({ navigation }) => {
     if (!result) {
         return null
     }
-    console.log(result)
 
     return (
         <View>
