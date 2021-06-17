@@ -21,7 +21,7 @@
 An app where we can search for food/restaurants using [Yelp API](https://www.yelp.com/fusion).
 
 <div align="center">
-	<img src="./.github/search.gif" width="50%">
+	<img src="./.github/assets/search.gif" width="30%">
 </div>
 
 # 🌱 Quick Start
